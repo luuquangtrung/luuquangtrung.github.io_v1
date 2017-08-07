@@ -1,2 +1,4 @@
-	name:  Quang-Trung Luu
-	markdown: kramdown
+name:  Quang-Trung Luu
+markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
