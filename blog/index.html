@@ -12,9 +12,9 @@ title: Blog
 <ul class="posts">
   {% for post in site.posts %}
     <li>
-	<h3>
+	<font size="6">
 		<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> » <span>{{ post.date | date_to_string }}</span> 
-	</h3>
+	</font>
 	</li>
   {% endfor %}
 </ul>
