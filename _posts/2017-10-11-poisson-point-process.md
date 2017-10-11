@@ -10,5 +10,5 @@ Considering an interval \\( [a,b] \\) instead of \\( t \\), the previous equatio
 
 The inter-arrival times \\( (I) \\) are independent and obey the exponential  \\( (Exp(\mu)) \\)  distribution:
 
-\\( \mathbb{P} ( \text{inter-arrival time} > t  \right ) = e^{-\mu t} \\)
+\\( \mathbb{P} ( \text{inter-arrival time} > t ) = e^{-\mu t} \\)
 
