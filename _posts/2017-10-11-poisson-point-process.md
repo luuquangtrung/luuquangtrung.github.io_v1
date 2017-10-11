@@ -22,5 +22,5 @@ The inter-arrival times \\( (I) \\) are independent and obey the exponential  \\
 
 ## References
 
-E. Modiano, "Introduction to Queueing Theory." *Lecture notes*, Massachusetts Institute of Technology.
+E. Modiano, "Introduction to Queueing Theory." *Lecture Notes*, Massachusetts Institute of Technology.
 
