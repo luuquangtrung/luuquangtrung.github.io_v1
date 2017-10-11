@@ -1,11 +1,11 @@
-# Motivation
+## Motivation
 
 Poisson point process is best suited to model the arrivals of packets due to fact that this math tool
 involves a "memoryless" waiting time until the arrival of the next packet. The interarrival times provided
 by Poisson process are therefore probabilistically independent, and this makes the Poisson process the most
 convenient choice to model the packet arrivals.
 
-# Definitions
+## Definitions
 
 The number of arrivals \\( N(t) \\) in a finite interval of length \\( t \\) obeys the Poisson \\( (\mu t) \\) distribution:
 
@@ -20,7 +20,7 @@ The inter-arrival times \\( (I) \\) are independent and obey the exponential  \\
 \\( \mathbb{P} ( \text{inter-arrival time} > t ) = e^{-\mu t} \\)
 
 
-# References
+## References
 
 E. Modiano, "Introduction to Queueing Theory." *Lecture notes*, Massachusetts Institute of Technology.
 
