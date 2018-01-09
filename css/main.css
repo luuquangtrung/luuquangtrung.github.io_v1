@@ -12,9 +12,10 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+<!-- Hyperlink, original color: #999 -->
 a {
     text-decoration: none;
-    color: #999;
+    color: #3333cc;
 }
 a:hover {
     text-decoration: underline;
