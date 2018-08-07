@@ -8,7 +8,7 @@ Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 	* Goal: Fit the data
 	* Prediction accuracy evaluation metrics: `OLS` (Ordinary Least Square), `SSE` (Sum of Squared Errors) 
 	* Simplest way: Linear Regression
-	* A bias is added into the linear formulation of the predicted value: \\[ \hat{y}_i = b + w_1 \cdot x_1 + \cdots w_d \cdot x_d \\]		
+	* A bias is added into the linear formulation of the predicted value: \\( \hat{y}_i = b + w_1 \cdot x_1 + \cdots w_d \cdot x_d \\)		
 	* Example: Bivariate
 	* Note: Regression expressed by the projections of one vector on the span (surface) formed by other vectors
 	* Extention: Multiple regression
