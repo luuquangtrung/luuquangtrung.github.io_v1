@@ -1,4 +1,4 @@
-## Notes on Genova Deep Learning Summer School 2018
+# Notes on Genova Deep Learning Summer School 2018
 
 
 ## Zaki: Introductory Tutorials on Regression and Deep Learning
