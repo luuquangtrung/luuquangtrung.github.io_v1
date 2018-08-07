@@ -1,15 +1,14 @@
 ## Notes on Genova Deep Learning Summer School 2018
 
 
-# Zaki: Introductory Tutorials on Regression and Deep Learning
+## Zaki: Introductory Tutorials on Regression and Deep Learning
 
 Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 * Part 1: Regression: 
 	* Goal: Fit the data
 	* Prediction accuracy evaluation metrics: `OLS` (Ordinary Least Square), `SSE` (Sum of Squared Errors) 
 	* Simplest way: Linear Regression
-	* A bias is added into the linear formulation of the predicted value: 
-		\\[ \hat{y}_i = b + w_1 \cdot x_1 + \cdots w_d \cdot x_d \\]		
+	* A bias is added into the linear formulation of the predicted value: \\[ \hat{y}_i = b + w_1 \cdot x_1 + \cdots w_d \cdot x_d \\]		
 	* Example: Bivariate
 	* Note: Regression expressed by the projections of one vector on the span (surface) formed by other vectors
 	* Extention: Multiple regression
@@ -18,7 +17,7 @@ Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 	* Regularization: \\(L_1, L_2\\)
 * Part 2: Logistic Regression
 	* `Sigmoid`, `tanh` function acting like `ReLU` (activation function)
-	* `Cross-entropy`: \\(Likelihood = (Prob. of data | Parameters) = \mathbb{P} (D | w) \\) 
+	* `Cross-entropy`: \\(Likelihood = (Prob. of data \| Parameters) = \mathbb{P} (D | w) \\) 
 	* `Stochastic Gradient Descent` (SGD): Find the smallest by going downward
 		* Compute for one single point
 		* Initial guess of weights: \\(w^0 = (0,0, \cdots, 0). \\)
@@ -26,7 +25,7 @@ Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 * Part 3: From Perception to Multilayer Perceptions (`MLP`) to CNN
 	* Any neuron is connected to others with weights
 
-# Gschwind (Huawei): Deploy DL Applications at Enterprise-Scale
+## Gschwind (Huawei): Deploy DL Applications at Enterprise-Scale
 * Rule-based reasoning
 	* Limit: Data classification for rich, but fuzzy data \\( \rightarrow \\) Not enough resources (human, time, etc.)
 	to write all rules for complex objects with many possible variations 
@@ -46,7 +45,7 @@ Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 	* \\( \uparrow \\) batch size: OK. Nevertheless: \\( \uparrow \\) convergence but \\( \downarrow \\) gain
 	* Lower precision: Trading off FP precision and throughput  
 
-# Xing: NN Programming
+## Xing: NN Programming
 * Symbolic programming vs. Imperative programming
 	* Symbolic: `Caffe`, `PyTorch`
 	* Imperative: `TensorFlow`, `theano`, `Caffe2`
@@ -63,7 +62,7 @@ Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 		(3) Dynamic Unroll: Control flow operations
 	* Dynamic Declaration (`DD`): Declare and construct each Dataflow graph *for each* input sample
 
-# Li Errran Li: Deep Reinforcement Learning
+## Li Errran Li: Deep Reinforcement Learning
 
 1. Reinforcement learning
 	* MDP planning: 
@@ -80,52 +79,15 @@ Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 		* Partially observable problems: Can be converted to MDPs
 		* Bandits: One-state MDP
 2. Deep Q-Learning: 
-		* `Q-Net`: Mnih et al. Nevertheless Q-net in this paper is not up-to-date
-		* Improvements to Deep Q-Network:
-			* Double Q-Network
-			* Prioritised replay: Weighting experience according to surprise, i.e., storing experience in priority 
-			queue according to DQN error
-			* Duelling networl: Split Q-Net into 2 channels:
-				* `V(s,v`: Action-independent value function
-				* `A(s,a,w)`: Action-independent advantage function
-		* Frameworks: `rllab`, `OpenAIGym`
-		* Games: universe.openai.com, deepmindlab
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	* `Q-Net`: Mnih et al. Nevertheless Q-net in this paper is not up-to-date
+	* Improvements to Deep Q-Network:
+		* Double Q-Network
+		* Prioritised replay: Weighting experience according to surprise, i.e., storing experience in priority 
+		queue according to DQN error
+		* Duelling networl: Split Q-Net into 2 channels:
+			* `V(s,v`: Action-independent value function
+			* `A(s,a,w)`: Action-independent advantage function
+	* Frameworks: `rllab`, `OpenAIGym`
+	* Games: universe.openai.com, deepmindlab
 
 
