@@ -1,4 +1,4 @@
-# Notes on Genova Deep Learning Summer School 2018
+# Genova Deep Learning Summer School 2018
 
 
 ## Zaki: Introductory Tutorials on Regression and Deep Learning
@@ -78,7 +78,7 @@ Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 		* Optimal control primarily: Continuous MDPs
 		* Partially observable problems: Can be converted to MDPs
 		* Bandits: One-state MDP
-		
+
 * **Deep Q-Learning:** 
 	* `Q-Net`: Mnih et al. Nevertheless Q-net in this paper is not up-to-date
 	* Improvements to Deep Q-Network:
