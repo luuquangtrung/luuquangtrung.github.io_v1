@@ -4,7 +4,7 @@
 ## Zaki: Introductory Tutorials on Regression and Deep Learning
 
 Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
-* Part 1: Regression: 
+* **Part 1: Regression:** 
 	* Goal: Fit the data
 	* Prediction accuracy evaluation metrics: `OLS` (Ordinary Least Square), `SSE` (Sum of Squared Errors) 
 	* Simplest way: Linear Regression
@@ -15,27 +15,27 @@ Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 	* Error function: Show how well trained a network is
 	* Gradients: Parallel derivatives 
 	* Regularization: \\(L_1, L_2\\)
-* Part 2: Logistic Regression
+* **Part 2: Logistic Regression**
 	* `Sigmoid`, `tanh` function acting like `ReLU` (activation function)
 	* `Cross-entropy`: \\( Likelihood = \mathbb{P} (Data \| Parameters) = \mathbb{P} (D \| w) \\) 
 	* `Stochastic Gradient Descent` (SGD): Find the smallest by going downward
 		* Compute for one single point
 		* Initial guess of weights: \\(w^0 = (0,0, \cdots, 0). \\)
 		* Compute `SGD` at this point and then update the weights for all points (back-propagation)
-* Part 3: From Perception to Multilayer Perceptions (`MLP`) to CNN
+* **Part 3: From Perception to Multilayer Perceptions (`MLP`) to CNN**
 	* Any neuron is connected to others with weights
 
 ## Gschwind (Huawei): Deploy DL Applications at Enterprise-Scale
-* Rule-based reasoning
+* **Rule-based reasoning**
 	* Limit: Data classification for rich, but fuzzy data \\( \rightarrow \\) Not enough resources (human, time, etc.)
 	to write all rules for complex objects with many possible variations 
 	* Rules: Often complex, non-intuitive
-* Developer-centric AI ecosystems:
+* **Developer-centric AI ecosystems:**
 	* PowerAI: IBM
 	* Deep Learning containers: NVIDIA
 	* Cloud AutoML: Google
 	* Azure DL virual machine: Microsoft
-* Performance evaluation and measurement:
+* **Performance evaluation and measurement:**
 	* Comparation of execution time
 	* Drawback: Optimization that improves 1 metric often degrade others
 		* Image/Time
@@ -46,10 +46,10 @@ Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 	* Lower precision: Trading off FP precision and throughput  
 
 ## Xing: NN Programming
-* Symbolic programming vs. Imperative programming
+* **Symbolic programming vs. Imperative programming**
 	* Symbolic: `Caffe`, `PyTorch`
 	* Imperative: `TensorFlow`, `theano`, `Caffe2`
-* Building an NN:
+* **Building an NN:**
 	* In general: One needs those following information in order to build an NN:
 		* I/O dataflow?
 		* Number of layers [full-connected (`fc`), convolution (`conv`), rectifier (`ReLU`)]
@@ -64,7 +64,7 @@ Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 
 ## Li Errran Li: Deep Reinforcement Learning
 
-1. Reinforcement learning
+* **Reinforcement learning**
 	* MDP planning: 
 		* Planning: Assumed a full knowledge of MDP. Leads us to Dynamic Programming
 			* Policy interation
@@ -78,7 +78,8 @@ Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 		* Optimal control primarily: Continuous MDPs
 		* Partially observable problems: Can be converted to MDPs
 		* Bandits: One-state MDP
-2. Deep Q-Learning: 
+		
+* **Deep Q-Learning:** 
 	* `Q-Net`: Mnih et al. Nevertheless Q-net in this paper is not up-to-date
 	* Improvements to Deep Q-Network:
 		* Double Q-Network
