@@ -17,7 +17,7 @@ Frameworks: `Kera 10`, `PyTorch`, `TensorFlow`
 	* Regularization: \\(L_1, L_2\\)
 * Part 2: Logistic Regression
 	* `Sigmoid`, `tanh` function acting like `ReLU` (activation function)
-	* `Cross-entropy`: \\( Likelihood = (Prob. of data \| Parameters) = \mathbb{P} (D \| w) \\) 
+	* `Cross-entropy`: \\( Likelihood = \mathbb{P} (Data \| Parameters) = \mathbb{P} (D \| w) \\) 
 	* `Stochastic Gradient Descent` (SGD): Find the smallest by going downward
 		* Compute for one single point
 		* Initial guess of weights: \\(w^0 = (0,0, \cdots, 0). \\)
